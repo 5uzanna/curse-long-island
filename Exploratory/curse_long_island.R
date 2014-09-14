@@ -1,4 +1,4 @@
-df <- read.csv('Index_Crimes_by_County_and_Agency__Beginning_1990.csv')
+df <- read.csv("RawData/Index_Crimes_by_County_and_Agency__Beginning_1990.csv")
 old_data <- df[is.na(df$Months.Reported), ]
 new_data <- df[!is.na(df$Months.Reported), ]
 
